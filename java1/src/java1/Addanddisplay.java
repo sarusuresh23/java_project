@@ -13,11 +13,11 @@ public class Addanddisplay {
 	            }
 	        }
 	    }
-	    public static int get(int num) {
+	    public static int get(int number) {
 	        int sum = 0;
-	        while (num != 0) {
-	            sum += num % 10;
-	            num /= 10;
+	        while (number != 0) {
+	            sum += number % 10;
+	            number /= 10;
 	        }
 	        return sum;
 	    }
